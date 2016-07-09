@@ -1,0 +1,34 @@
+@media (max-width: 800px) and (min-width: 1px){
+    #hImage{
+        height: 100%;
+    }
+}
+
+#imgRutinas{
+    margin-top: 5px;
+}
+
+
+#hLogo{
+    background-color: #fff;
+    height: 100%;
+    text-align: center;
+}
+
+#hTitulo{
+    background-color: #fff;;
+    height: 100%;
+}
+
+#hLogin{
+    background-color: #fff;;
+    height: 100%;
+}
+
+#hImage{
+    height: 100%;
+}
+
+ul a:hover{
+    background-color: #ffff8d !important;
+}

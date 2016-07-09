@@ -1,0 +1,32 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Login</title>
+        <link rel="stylesheet" type="text/css" href="{% static 'usuarios/css/login.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'usuarios/css/materialize.min.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'usuarios/css/materialize.css' %}">
+    </head>
+    <body>
+        <div class="formulario">
+            <center><img id="imgLogo" src="{% static 'usuarios/media/logo3.gif' %}" class="imagen" alt="" width="120" height="120"></center>
+            <form action="" class="formulario2">
+                <div class="input-field">
+                    <input id="txtUsuario" type="text" class="validate">
+                    <label for="first_name">Usuario</label>
+                </div>
+                <div class="input-field">
+                    <input id="txtPassword" type="password" class="validate">
+                    <label for="first_name">Contraseña</label>
+                </div>
+                <input id="btnEntrar" type="button" class="waves-effect btn yellow darken-1" value="Entrar">
+                <p id="mensaje"></p>
+            </form>
+        </div>
+
+        <script type="text/jscript" src="js/materialize.min.js" ></script>
+        <script type="text/jscript" src="js/jquery.js" ></script>
+        <script type="text/jscript" src="js/materialize.js" ></script>
+    </body>
+</html>
