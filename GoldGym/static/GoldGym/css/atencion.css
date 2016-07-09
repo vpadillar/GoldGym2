@@ -1,0 +1,163 @@
+@media (max-width: 600px) and (min-width: 1px){
+
+    #hTitulo p{
+        display: none;
+    }
+
+    #hTitulo {
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) and (min-width: 939px){
+    #hTitulo p{
+        color: red;
+    }
+}
+
+@media (max-width: 940px) and (min-width: 400px){
+    #hTitulo p{
+        color: green;
+        font-size: 200% !important;
+    }
+}
+
+@media (max-width: 1000px) and (min-width: 600px) {
+    #logoUsuario img{
+        width: 78px !important;
+        height: 78px !important;
+    }
+}
+
+@font-face{
+    font-family: "gim1";
+    src: url("../fuentes/epoxy_history/EpoXY_histoRy.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: "gim2";
+    src: url("../fuentes/vtks_revolt/Vtks Revolt.ttf") format("truetype");
+}
+
+:root {
+    --main-bg-color: #ffea00;
+        --color1-bg-color: #ffff8d;
+    }
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        outline: none;
+        font-family: segoe ui light;
+    }
+
+    /*pagina*/
+    .divPagina{
+        margin: 20px;
+    }    
+
+
+    /******************************************************************************************/
+    /****************************************  HEADER  ****************************************/
+    /******************************************************************************************/
+    header{
+        background-color: #fff;
+        height: 150px;
+        width: 100%;
+        margin-bottom: 30px;
+        box-shadow: 0px 2px 6px 1px var(--main-bg-color);
+            }
+
+    /*
+    .divPagina .row header.col.s12{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}*/
+
+    #hTitulo {
+        text-align: center;
+    }
+
+    #hTitulo p{
+        font-family: "gim2";
+        font-size: 350%;
+        margin-top: 5%;
+        text-shadow: 2px 2px 8px var(--main-bg-color);
+            }
+
+    .item{
+        padding-left: 70px !important;
+    }
+
+    body.divPagina ul.collection li:nth-child(3) a:hover {
+        background-color: red !important;
+    }
+
+    #logoUsuario{
+        width: 70%;
+        height: 100%;
+        float: left;
+        padding: 0%;
+    }
+
+    #logoUsuario img{
+        width: 100%;
+        height: 100%;
+    }
+
+    #logout{
+        width: 30%;
+        height: 100%;
+        float: left;
+    }
+
+    #clear{
+        clear: both;
+    }
+
+
+    /*******************************************************************************************/
+    /****************************************  SECTION  ****************************************/
+    /*******************************************************************************************/
+    section{
+        background-color: var(--color1-bg-color);   
+            padding-top: 10px !important;
+            margin-top: 7px;
+            }
+
+    .agregarProducto{
+        position: relative;
+        top: 20px;
+    }
+
+    .btnPagar{
+        position: relative;
+        top: 30px;  
+    }
+
+    #txtCliente{
+        font-weight: bold !important;
+        text-align: center;
+    }
+
+    p#PDiasRestantes, p#PDeuda{
+        margin-top: 20px;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    #pDiasRestantes{
+        text-align: left;
+    }
+
+    .pagarDeudaRutina{
+        margin-top: 20px;      
+    }
+
+    #deuda{
+        text-align: left;
+    }
+
+    .tablaCompra{
+        margin-top: 50px;
+    }
